@@ -1,4 +1,4 @@
 docker-ubuntu
 =============
 
-My slightly customized base ubuntu image
+The ubuntu:14.04 with some packages I often use
