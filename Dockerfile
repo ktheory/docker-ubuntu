@@ -1,5 +1,7 @@
 FROM ubuntu:14.04
 
+RUN echo version 2
+
 RUN apt-get update && apt-get upgrade -y && apt-get install -y \
   git \
   libmysqlclient-dev mysql-client \
