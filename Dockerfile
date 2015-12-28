@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-RUN echo version 3
+RUN echo version 20151228
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y \
   git \
