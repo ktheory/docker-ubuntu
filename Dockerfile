@@ -3,19 +3,20 @@ FROM ubuntu:14.04
 RUN echo version 20151228
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y \
+  apache2-utils \
+  command-not-found \
+  curl \
+  dnsutils \
   git \
+  htop \
   libmysqlclient-dev mysql-client \
-  redis-tools \
+  man-db \
   nodejs \
-  vim emacs nano ne \
-  screen tmux \
   openssh-client \
   openssh-server \
-  command-not-found \
-  man-db \
-  telnet \
+  redis-tools \
+  screen tmux \
   silversearcher-ag \
-  htop \
+  telnet \
   traceroute nethogs \
-  dnsutils \
-  apache2-utils
+  vim emacs nano ne
